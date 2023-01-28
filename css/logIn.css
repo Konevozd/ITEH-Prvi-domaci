@@ -1,0 +1,30 @@
+body {
+    background-color: #AF5A50;
+}
+
+.main {
+    border: 10px solid white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.input {
+    height: 250px;
+}
+
+.input{
+    color: white;
+    text-align: center;
+    background-color: #50A5AF;
+    padding: 50px;
+    font-size: 16px;
+}
+
+.logInButton {
+    margin: auto;
+    padding: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+}
