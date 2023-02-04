@@ -1,0 +1,35 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.parent{ 
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    height: 40px;
+    background-color: #967d5e;
+    text-align: center; 
+}
+
+.parent a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-style: italic;
+    border-left:5px solid #352a24;
+    border-right: 5px solid #352a24;
+    border-bottom: 5px solid #352a24;
+    height: 100%;
+    width: 100%;
+    padding-top:30px;
+    background-color: #967d5e;
+}
+
+.body {
+    height: 300px;
+    text-align: center;
+    margin-top: 150px;
+    background-color: #554137;
+    color: white;
+    padding-top: 50px;
+}
