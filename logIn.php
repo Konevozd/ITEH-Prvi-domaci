@@ -37,6 +37,7 @@ if(isset($_POST['username']) && isset($_POST['password'])) {
     <div class = "main">
         <div class = "input"> 
             <form method = "post" action = "">
+                <h3> <?php echo $mess ?> </h3>
             <h2> Prijavite se </h2><br><br>
             Korisnicko ime <br>
             <input type = "text" class = "" name = "username" size = "30" maxlength="50" required> <br><br>

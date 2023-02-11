@@ -15,7 +15,7 @@ class Korisnici {
     public static function login($korisnik, mysqli $conn) {
 
         $upit = "select * from korisnik where korisnicko_ime = '$korisnik->korisnickoIme' and lozinka = '$korisnik->lozinka'";
-        echo $upit;
+        // echo $upit;
 
         return $conn->query($upit);
     }
