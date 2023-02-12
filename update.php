@@ -51,6 +51,7 @@ if(isset($_POST['update'])) {
 </div>
 
 <div class = "body">
+    <h3> <?php echo $mess ?></h3>
     <h2> Izmena podatka o racunaru </h2>
     <form method = "post" action = "">
     <label for = "name"> Naziv računara </label> <br>
